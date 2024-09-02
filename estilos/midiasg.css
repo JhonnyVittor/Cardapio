@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#606c38;
+    --cor2:#283618;
+    --cor3:#fefae0;
+    --cor4:#dda15e;
+    --cor5:#bc6c25;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    } 
+    main{
+        width: 35vw;
+        height: 60vh;
+    }
+
+    main > h1{
+        padding-top: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+
+    main{
+        width: 25vw;
+        height: 50vh;
+    }
+
+    main > h1{
+        font-size: 6em;
+        padding-top: 45px;
+        
+    }
+
+    #escolhas > ul > li > a{
+        font-size: 2em;
+    }
+}
