@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'bonita';
+    src: url(../fontes/Hello.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor1:#606c38;
+    --cor2:#283618;
+    --cor3:#fefae0;
+    --cor4:#dda15e;
+    --cor5:#bc6c25;
+    --cor6:#794E36;
+}
+
+*{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{  
+    width: 100vw;
+    height: 30vh;
+    background-color: #bc6c25;
+}
+
+header > nav{
+    background-color: var(--cor5);
+    position: absolute;
+    top: 190px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    font-size: 0.88em;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+header > nav > input{
+    background-color: white;
+    width: 25vw;
+    height: 23px;
+}
+
+header > nav > span{
+    background-color: var(--cor5);
+    color: var(--cor3);
+    
+}
