@@ -14,7 +14,7 @@
     } 
     main{
         width: 35vw;
-        height: 350px;
+        height: 370px;
     }
 
     main > h1{
@@ -28,8 +28,8 @@
     }
 
     main{
-        width: 23vw;
-        height: 50vh;
+        width: 28vw;
+        height: 60vh;
     }
 
     main > h1{
