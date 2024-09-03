@@ -16,11 +16,18 @@
 }
 
 *{
-    background-color: gray;
     margin: 0px;
     padding: 0px;
 }
-body > h1{
+body, html{
+    background-color: lightgray;
+}
+
+header{
+    background-color: gray;
+}
+
+header > h1{
     font-family: 'bonita';
     font-size: 2.5em;
     text-align: center;
@@ -31,46 +38,24 @@ body > h1{
     text-shadow: 3px 3px 1px black;
 }
 
-header{  
-    width: 100vw;
-    
+menu > ul {
+    list-style-type: none; 
 }
 
-header >#burguer{
+menu > ul > li > a{
     display: block;
-    text-align: center;
-    background-color:#283618;
-    display: block;
-    color: white;
-    cursor: pointer;
-    font-size: 2em; 
-}
-
-header > #burguer:hover{
-    color: var(--cor5);
-}
-
-header > menu#escolhas > ul{
-    text-align: center;
-    display: none;
-    
-}
-
-header > menu#escolhas > ul >li{
-    padding: 1px 0px 1px 0px;
-    list-style-type: none;
-    
-}
-
-#escolhas > ul > li > a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor2);
     padding: 6px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor2);
+    color: white;
+    border-top: 2px solid rgba(211, 211, 211, 0.74);
+    
 }
 
+menu > ul > li a:hover{
+    background-color: #606c38;
+}
 
 
 
