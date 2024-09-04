@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'bonita';
+    src: url(../fontes/Hello.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'dife' ;
+    src: url(../fontes/MilkyVintage-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root{
+    --cor1:#606c38;
+    --cor2:#283618;
+    --cor3:#fefae0;
+    --cor4:#dda15e;
+    --cor5:#bc6c25;
+    --cor6:#794E36;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+
+}
+
+@media screen and (min-width: 992px) {
+    header{
+       background-image: linear-gradient(to top, var(--cor6), var(--cor1));
+       height: 230px;
+       box-shadow: 1px 3px 15px white;
+       
+    }
+
+    header > h1{
+        padding-top: 25px;
+        height: 150px;
+        font-size: 6.5em;
+        background-image: radial-gradient( var(--cor1), var(--cor6));
+    }
+
+    header > menu > ul{
+        text-align: center;
+        
+
+    }
+
+    header > menu > ul >li{
+        display:inline-block;
+        
+        
+    }
+
+    header > menu > ul > li > a{
+        width: 150px;
+        border: none;
+        font-family: 'dife';
+        font-size: 25px;
+        margin-left: 40px;
+        margin-top: 5px;
+        border-radius: 5px;
+        
+    }
+    main > h1{
+        font-size: 5em;
+    }
+    main{
+        text-align: center;
+        background-image: linear-gradient(to bottom, var(--cor4), var(--cor5), var(--cor6));
+    }
+
+    main > div{
+        width: 600px;
+        height: 380px;
+        display:inline-block;
+        
+    }
+    
+    main > div > h2{
+        text-align: center;
+        font-size:4em;
+    }
+
+    main > div > ul{
+        padding-top: 50px;
+
+    }
+
+    main > div > ul > li > a{
+        font-size: 1.5em;
+    }
+
+
+    #dadinho{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        margin: 0px;
+        font-family: 'Courier New', Courier, monospace;
+        color: var(--cor3);
+    }
+
+
+}
