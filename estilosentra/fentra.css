@@ -119,18 +119,18 @@ main > div{
     background-image: url(../imagens/batata.jpg) ;
     background-size: cover;
     
-    
 }
 
 #batatacb{
     background-image: url(../imagens/batatacheddar.jpg);
     background-size: cover;
-    
+    margin-top: 18px;
 }
 
 #aneis{
     background-image: url(../imagens/Aneis.jpg);
     background-size: cover;
+    margin-top: 18px;
 }
 
 #dadinho{
@@ -141,6 +141,7 @@ main > div{
 #mandioca{
     background-image: url(../imagens/Mandioca.jpg);
     background-size: cover;
+    margin-top: 18px;
 }
 
 footer{
