@@ -13,8 +13,8 @@
         background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     } 
     main{
-        width: 35vw;
-        height: 370px;
+        width: 30vw;
+        height: 460px;
     }
 
     main > h1{
@@ -28,8 +28,8 @@
     }
 
     main{
-        width: 28vw;
-        height: 60vh;
+        width: 23vw;
+        height: 460px;
     }
 
     main > h1{
